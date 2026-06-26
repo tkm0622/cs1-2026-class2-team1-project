@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    position: sticky;
+    top: 10px;
+    width: auto; 
+    min-width: 200px;
+    background-color: #f4f4f4;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.sidebar h1 {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
