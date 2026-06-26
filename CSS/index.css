@@ -48,3 +48,8 @@
     display: block;
     margin: 0 auto;
 }
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
