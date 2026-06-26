@@ -16,10 +16,35 @@
 .sidebar h1 {
     white-space: nowrap;
     text-align: center;
+    font-size: 36px;
+    border-bottom: 2px solid #ff0000;
 }
 
 .content {
     flex: 1;
     margin: 10px 10px 10px 10px;
     padding: 10px;
+}
+
+.header {
+    max-height: 280px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
