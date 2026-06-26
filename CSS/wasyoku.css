@@ -16,10 +16,18 @@
 .sidebar h1 {
     white-space: nowrap;
     text-align: center;
+    font-size: 36px;
+    border-bottom: 2px solid #ff0000;
 }
 
 .content {
     flex: 1;
     margin: 10px 10px 10px 10px;
     padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
